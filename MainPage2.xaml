@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrailleUygulamasi.MainPage2" Title="HARF">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                 Android="20, 30, 20, 20">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Braille Dilinde Görmek istediğiniz Harfi Aşağıdaki Boşluğa Yazınız." 
+                       VerticalOptions="Center"
+                       FontSize="17"/>
+
+            <Entry 
+                   x:Name="textalani"
+                   TextColor="Gray"
+                   BackgroundColor="AliceBlue"
+                   Placeholder="Buraya Yazınız! (Max bir karakter!)"
+                   MaxLength="1"
+                   Keyboard="Chat"
+                   />
+
+            <Button Text="Dönüştürmek için Tıklayınız !"
+                    HorizontalOptions="Center"
+                    CornerRadius="90"
+                    Clicked="Button_Clicked"/>
+
+            <Image Source="{x:Reference textalani}"
+                   x:Name="brailleimages"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

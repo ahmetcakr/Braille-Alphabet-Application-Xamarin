@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrailleUygulamasi.MainPage3" Title="DENEME">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                 Android="20, 30, 20, 20">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Grid>
+                <Button Text="" x:Name="color_1" CornerRadius="360" WidthRequest="50" HeightRequest="50"  Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" Clicked="Button_1"/>
+                <Button Text="" x:Name="color_2" CornerRadius="360" WidthRequest="50" HeightRequest="50" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" Clicked="Button_2"/>
+                <Button Text="" x:Name="color_3" CornerRadius="360" WidthRequest="50" HeightRequest="50"  Grid.Column="1" Grid.Row="2" HorizontalOptions="Center" Clicked="Button_3"/>
+                <Button Text="" x:Name="color_4" CornerRadius="360" WidthRequest="50" HeightRequest="50" Grid.Column="0" Grid.Row="2" HorizontalOptions="Center" Clicked="Button_4"/>
+                <Button Text="" x:Name="color_5" CornerRadius="360" WidthRequest="50" HeightRequest="50"  Grid.Column="1" Grid.Row="4" HorizontalOptions="Center" Clicked="Button_5"/>
+                <Button Text="" x:Name="color_6" CornerRadius="360" WidthRequest="50" HeightRequest="50" Grid.Column="0" Grid.Row="4" HorizontalOptions="Center" Clicked="Button_6"/>
+
+                <Button Text="Göster" Grid.Column="0" Grid.Row="8" CornerRadius="90" Clicked="Button_Goster"/>
+                <Button Text="Temizle" Grid.Column="1" Grid.Row="8" CornerRadius="90" Clicked="Button_Temizle"/>
+            </Grid>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
