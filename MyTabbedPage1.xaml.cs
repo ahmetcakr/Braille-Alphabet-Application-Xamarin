@@ -18,6 +18,7 @@ namespace BrailleUygulamasi
             Children.Add(new MainPage());
             Children.Add(new MainPage2());
             Children.Add(new MainPage3());
+            Children.Add(new MainPage4());
         }
     }
 }

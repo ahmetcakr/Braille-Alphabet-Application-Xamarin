@@ -16,3 +16,4 @@ C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netsta
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage2.xaml.g.cs
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage3.xaml.g.cs
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MyTabbedPage1.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage4.xaml.g.cs

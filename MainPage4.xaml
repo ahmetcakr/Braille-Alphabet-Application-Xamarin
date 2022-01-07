@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrailleUygulamasi.MainPage4" Title="KELIME">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                 Android="20, 30, 20, 20">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry 
+                   x:Name="kelimealani"
+                   TextColor="Gray"
+                   BackgroundColor="AliceBlue"
+                   Placeholder="Buraya Yazınız! (Max 5 karakter!)"
+                   MaxLength="5"
+                   Keyboard="Chat"
+                   />
+
+            <Button
+                Text="Tıkla"
+                Clicked="Button_Clicked"
+                
+                />
+            <Grid>
+                <Image Source="{x:Reference kelimealani}"
+                   x:Name="brailleimages01"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"
+                       Grid.Row="0"
+                       Grid.Column="0"/>
+
+                <Image Source="{x:Reference kelimealani}"
+                   x:Name="brailleimages02"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+
+                <Image Source="{x:Reference kelimealani}"
+                   x:Name="brailleimages03"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"
+                        Grid.Row="2"
+                       Grid.Column="0"/>
+
+                <Image Source="{x:Reference kelimealani}"
+                   x:Name="brailleimages04"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"
+                        Grid.Row="3"
+                       Grid.Column="0"/>
+
+                <Image Source="{x:Reference kelimealani}"
+                   x:Name="brailleimages05"
+                   HeightRequest="200"
+                   VerticalOptions="CenterAndExpand"
+                        Grid.Row="4"
+                       Grid.Column="0"/>
+
+
+
+
+            </Grid>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
