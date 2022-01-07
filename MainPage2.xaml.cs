@@ -11,37 +11,7 @@ namespace BrailleUygulamasi
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage2 : ContentPage
-    {
-
-        /*private string[] _letter = new string[]
-        {
-            " A HARFİ ",
-            " B HARFİ ",
-            " C HARFİ ",
-            " D HARFİ ",
-            " E HARFİ ",
-            " F HARFİ ",
-            " G HARFİ ",
-            " H HARFİ ",
-            " I HARFİ ",
-            " J HARFİ ",
-            " K HARFİ ",
-            " L HARFİ ",
-            " M HARFİ ",
-            " N HARFİ ",
-            " O HARFİ ",
-            " P HARFİ ",
-            " Q HARFİ ",
-            " R HARFİ ",
-            " S HARFİ ",
-            " T HARFİ ",
-            " U HARFİ ",
-            " V HARFİ ",
-            " W HARFİ ",
-            " X HARFİ ",
-            " Y HARFİ ",
-            " Z HARFİ ",
-        };*/  // kullanılmayan dizi
+   
         private string[] _brailleletters = new string[]
            {
                  "A.png",
