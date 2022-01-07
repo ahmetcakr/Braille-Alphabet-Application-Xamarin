@@ -15,3 +15,4 @@ C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Release\nets
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Release\netstandard2.0\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Release\netstandard2.0\ref\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Release\netstandard2.0\BrailleUygulamasi.pdb
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Release\netstandard2.0\BrailleUygulamasi.csproj.AssemblyReference.cache
