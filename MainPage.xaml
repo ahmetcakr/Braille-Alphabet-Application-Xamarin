@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BrailleUygulamasi.MainPage" Title="ALFABE">
+             x:Class="BrailleUygulamasi.MainPage" Title="ALFABE" BackgroundColor="White">
 
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
@@ -10,9 +10,9 @@
     </ContentPage.Padding>
 
     <ContentPage.Content>
-
+<ScrollView>
         <StackLayout>
-
+            
             <Label
                 Text="BRAILLE ALFABESİ"
                 TextColor="Blue"
@@ -34,7 +34,7 @@
 
             <Image Source="{x:Reference currentQuote}"
                    x:Name="imageList"
-                   HeightRequest="300"/>
+                   HeightRequest="250"/>
 
             <Label
                 Text="{Binding
@@ -49,12 +49,13 @@
                 Minimum="30" />
 
             <Grid>
-                <Button Text="Next" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand" CornerRadius="30" />
-                <Button Text="Back" Clicked="Button_Clicked_1" HorizontalOptions="StartAndExpand" CornerRadius="30"/>
+                <Button Text="Next" TextColor="Black" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand" CornerRadius="30" BackgroundColor="LightGray" />
+                <Button Text="Back" TextColor="Black" BackgroundColor="LightGray" Clicked="Button_Clicked_1" HorizontalOptions="StartAndExpand" CornerRadius="30"/>
             </Grid>
 
-            <Button Text="Braille Alfabesi Nedir ?" Clicked="Button_Clicked_2" HorizontalOptions="CenterAndExpand" BackgroundColor="Gray" Opacity="0.5" CornerRadius="30"/>
+            <Button Text="Braille Alfabesi Nedir ?" TextColor="Black" Clicked="Button_Clicked_2" HorizontalOptions="CenterAndExpand" BackgroundColor="Gray" Opacity="0.5" CornerRadius="30"/>
 
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

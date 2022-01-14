@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BrailleUygulamasi.MainPage4" Title="KELIME">
+             x:Class="BrailleUygulamasi.MainPage4" Title="KELIME" BackgroundColor="White">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                  Android="20, 30, 20, 20">
@@ -15,6 +15,7 @@
                    TextColor="Gray"
                    BackgroundColor="AliceBlue"
                    Placeholder="Buraya Yazınız! (Max 5 karakter!)"
+                   PlaceholderColor="Gray"
                    MaxLength="5"
                    Keyboard="Chat"
                    />
@@ -22,6 +23,9 @@
             <Button
                 Text="Tıkla"
                 Clicked="Button_Clicked"
+                BackgroundColor="LightGray"
+                TextColor="Black"
+                CornerRadius="60"
                 
                 />
             <Grid>

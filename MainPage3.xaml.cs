@@ -26,7 +26,7 @@ namespace BrailleUygulamasi
 
             if (color_1.BackgroundColor == Color.Black && b1 == 1)
             {
-                color_1.BackgroundColor = Color.Default;
+                color_1.BackgroundColor = Color.LightGray;
                 b1 = 0;
             }
             else
@@ -39,12 +39,12 @@ namespace BrailleUygulamasi
 
         private void Button_Temizle(object sender, EventArgs e)
         {
-            color_1.BackgroundColor = Color.Default;
-            color_2.BackgroundColor = Color.Default;
-            color_3.BackgroundColor = Color.Default;
-            color_4.BackgroundColor = Color.Default;
-            color_5.BackgroundColor = Color.Default;
-            color_6.BackgroundColor = Color.Default;
+            color_1.BackgroundColor = Color.LightGray;
+            color_2.BackgroundColor = Color.LightGray;
+            color_3.BackgroundColor = Color.LightGray;
+            color_4.BackgroundColor = Color.LightGray;
+            color_5.BackgroundColor = Color.LightGray;
+            color_6.BackgroundColor = Color.LightGray;
 
             b1 = 0;
             b2 = 0;
@@ -170,7 +170,7 @@ namespace BrailleUygulamasi
 
             if (color_2.BackgroundColor == Color.Black && b2 == 1)
             {
-                color_2.BackgroundColor = Color.Default;
+                color_2.BackgroundColor = Color.LightGray;
                 b2 = 0;
             }
             else
@@ -185,7 +185,7 @@ namespace BrailleUygulamasi
 
             if (color_3.BackgroundColor == Color.Black && b3 == 1)
             {
-                color_3.BackgroundColor = Color.Default;
+                color_3.BackgroundColor = Color.LightGray;
                 b3 = 0;
             }
             else
@@ -201,7 +201,7 @@ namespace BrailleUygulamasi
 
             if (color_4.BackgroundColor == Color.Black && b4 == 1)
             {
-                color_4.BackgroundColor = Color.Default;
+                color_4.BackgroundColor = Color.LightGray;
                 b4 = 0;
             }
             else
@@ -217,7 +217,7 @@ namespace BrailleUygulamasi
 
             if (color_5.BackgroundColor == Color.Black && b5 == 1)
             {
-                color_5.BackgroundColor = Color.Default;
+                color_5.BackgroundColor = Color.LightGray;
                 b5 = 0;
             }
             else
@@ -233,7 +233,7 @@ namespace BrailleUygulamasi
 
             if (color_6.BackgroundColor == Color.Black && b6 == 1)
             {
-                color_6.BackgroundColor = Color.Default;
+                color_6.BackgroundColor = Color.LightGray;
                 b6 = 0;
             }
             else
