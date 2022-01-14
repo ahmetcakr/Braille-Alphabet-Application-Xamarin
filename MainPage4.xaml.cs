@@ -87,184 +87,9 @@ namespace BrailleUygulamasi
         private void Button_Clicked(object sender, EventArgs e)
         {
             
-            for (int i = 0; i < kelimealani.Text.Length; i++)
-            {
-                
-
-                switch (kelimealani.Text[i])
-                {
-                    case 'a':
-                    case 'A':
-                        if (i == 0)
-                        {
-                            brailleimages01.Source = "A.png";
-                        }
-                        else if (i == 1)
-                        {
-                            brailleimages02.Source = "A.png";
-                        }
-                        else if (i == 2)
-                        {
-                            brailleimages03.Source = "A.png";
-                        }
-                        else if (i == 3)
-                        {
-                            brailleimages04.Source = "A.png";
-                        }
-                        else if (i == 4)
-                        {
-                            brailleimages05.Source = "A.png";
-                        }
-                        else
-                        {
-                            brailleimages01.Source = " ";
-                            brailleimages02.Source = " ";
-                            brailleimages03.Source = " ";
-                            brailleimages04.Source = " ";
-                            brailleimages05.Source = " ";
-                        }
-                        break;
-                    case 'b':
-                    case 'B':
-                        if (i == 0)
-                        {
-                            brailleimages01.Source = "B.png";
-                        }
-                        else if (i == 1)
-                        {
-                            brailleimages02.Source = "B.png";
-                        }
-                        else if (i == 2)
-                        {
-                            brailleimages03.Source = "B.png";
-                        }
-                        else if (i == 3)
-                        {
-                            brailleimages04.Source = "B.png";
-                        }
-                        else if (i == 4)
-                        {
-                            brailleimages05.Source = "B.png";
-                        }
-                        else
-                        {
-                            brailleimages01.Source = "";
-                            brailleimages02.Source = "";
-                            brailleimages03.Source = "";
-                            brailleimages04.Source = "";
-                            brailleimages05.Source = "";
-                        }
-                        break;
-                    case 'c':
-                    case 'C':
-                        brailleimages01.Source = "C.png";
-                        break;
-                    case 'd':
-                    case 'D':
-                        brailleimages01.Source = "D.png";
-                        break;
-                    case 'e':
-                    case 'E':
-                        brailleimages01.Source = "E.png";
-                        break;
-                    case 'f':
-                    case 'F':
-                        brailleimages01.Source = "F.png";
-                        break;
-                    case 'g':
-                    case 'G':
-                        brailleimages01.Source = "G.png";
-                        break;
-                    case 'h':
-                    case 'H':
-                        brailleimages01.Source = "H.png";
-                        break;
-                    case 'ı':
-                    case 'I':
-                    case 'i':
-                    case 'İ':
-                        brailleimages01.Source = "i.png";
-                        break;
-                    case 'j':
-                    case 'J':
-                        brailleimages01.Source = "J.png";
-                        break;
-                    case 'k':
-                    case 'K':
-                        brailleimages01.Source = "K.png";
-                        break;
-                    case 'l':
-                    case 'L':
-                        brailleimages01.Source = "L.png";
-                        break;
-                    case 'm':
-                    case 'M':
-                        brailleimages01.Source = "M.png";
-                        break;
-                    case 'n':
-                    case 'N':
-                        brailleimages01.Source = "N.png";
-                        break;
-                    case 'o':
-                    case 'O':
-                        brailleimages01.Source = "O.png";
-                        break;
-                    case 'p':
-                    case 'P':
-                        brailleimages01.Source = "P.png";
-                        break;
-                    case 'q':
-                    case 'Q':
-                        brailleimages01.Source = "Q.png";
-                        break;
-                    case 'r':
-                    case 'R':
-                        brailleimages01.Source = "R.png";
-                        break;
-                    case 's':
-                    case 'S':
-                        brailleimages01.Source = "S.png";
-                        break;
-                    case 't':
-                    case 'T':
-                        brailleimages01.Source = "T.png";
-                        break;
-                    case 'u':
-                    case 'U':
-                        brailleimages01.Source = "U.png";
-                        break;
-                    case 'v':
-                    case 'V':
-                        brailleimages01.Source = "V.png";
-                        break;
-                    case 'w':
-                    case 'W':
-                        brailleimages01.Source = "W.png";
-                        break;
-                    case 'x':
-                    case 'X':
-                        brailleimages01.Source = "X.png";
-                        break;
-                    case 'y':
-                    case 'Y':
-                        brailleimages01.Source = "Y.png";
-                        break;
-                    case 'z':
-                    case 'Z':
-                        brailleimages01.Source = "Z.png";
-                        break;
-                    default:
-                        DisplayAlert("UYARI", " 1. HARFTE HATALI GİRİŞ " +
-                            "LÜTFEN BİR HARF GİRİNİZ!", "OK");
-                        break;
-                }
-
-            }
-
-
-            /*
                 switch (kelimealani.Text[0])
                 {
+                    
                     case 'a':
                     case 'A':
                         brailleimages01.Source = "A.png";
@@ -487,9 +312,11 @@ namespace BrailleUygulamasi
                         brailleimages02.Source = "Z.png";
                         break;
                     default:
-                        DisplayAlert("UYARI", "2. HARFTE HATALI GİRİŞ " +
-                            "LÜTFEN BİR HARF GİRİNİZ!", "OK");
-                        break;
+                    brailleimages02.Source = "BOS.png";
+                    brailleimages03.Source = "BOS.png";
+                    brailleimages04.Source = "BOS.png";
+                    brailleimages05.Source = "BOS.png";
+                    break;
                 }
 
                 switch (kelimealani.Text[2])
@@ -838,8 +665,180 @@ namespace BrailleUygulamasi
                 }
             
             
-            */
+            }
 
         }
-    }
 }
+
+
+/* for (int i = 0; i < kelimealani.Text.Length; i++)
+           {
+
+
+               switch (kelimealani.Text[i])
+               {
+                   case 'a':
+                   case 'A':
+                       if (i == 0)
+                       {
+                           brailleimages01.Source = "A.png";
+                       }
+                       else if (i == 1)
+                       {
+                           brailleimages02.Source = "A.png";
+                       }
+                       else if (i == 2)
+                       {
+                           brailleimages03.Source = "A.png";
+                       }
+                       else if (i == 3)
+                       {
+                           brailleimages04.Source = "A.png";
+                       }
+                       else if (i == 4)
+                       {
+                           brailleimages05.Source = "A.png";
+                       }
+                       else
+                       {
+                           brailleimages01.Source = " ";
+                           brailleimages02.Source = " ";
+                           brailleimages03.Source = " ";
+                           brailleimages04.Source = " ";
+                           brailleimages05.Source = " ";
+                       }
+                       break;
+                   case 'b':
+                   case 'B':
+                       if (i == 0)
+                       {
+                           brailleimages01.Source = "B.png";
+                       }
+                       else if (i == 1)
+                       {
+                           brailleimages02.Source = "B.png";
+                       }
+                       else if (i == 2)
+                       {
+                           brailleimages03.Source = "B.png";
+                       }
+                       else if (i == 3)
+                       {
+                           brailleimages04.Source = "B.png";
+                       }
+                       else if (i == 4)
+                       {
+                           brailleimages05.Source = "B.png";
+                       }
+                       else
+                       {
+                           brailleimages01.Source = "";
+                           brailleimages02.Source = "";
+                           brailleimages03.Source = "";
+                           brailleimages04.Source = "";
+                           brailleimages05.Source = "";
+                       }
+                       break;
+                   case 'c':
+                   case 'C':
+                       brailleimages01.Source = "C.png";
+                       break;
+                   case 'd':
+                   case 'D':
+                       brailleimages01.Source = "D.png";
+                       break;
+                   case 'e':
+                   case 'E':
+                       brailleimages01.Source = "E.png";
+                       break;
+                   case 'f':
+                   case 'F':
+                       brailleimages01.Source = "F.png";
+                       break;
+                   case 'g':
+                   case 'G':
+                       brailleimages01.Source = "G.png";
+                       break;
+                   case 'h':
+                   case 'H':
+                       brailleimages01.Source = "H.png";
+                       break;
+                   case 'ı':
+                   case 'I':
+                   case 'i':
+                   case 'İ':
+                       brailleimages01.Source = "i.png";
+                       break;
+                   case 'j':
+                   case 'J':
+                       brailleimages01.Source = "J.png";
+                       break;
+                   case 'k':
+                   case 'K':
+                       brailleimages01.Source = "K.png";
+                       break;
+                   case 'l':
+                   case 'L':
+                       brailleimages01.Source = "L.png";
+                       break;
+                   case 'm':
+                   case 'M':
+                       brailleimages01.Source = "M.png";
+                       break;
+                   case 'n':
+                   case 'N':
+                       brailleimages01.Source = "N.png";
+                       break;
+                   case 'o':
+                   case 'O':
+                       brailleimages01.Source = "O.png";
+                       break;
+                   case 'p':
+                   case 'P':
+                       brailleimages01.Source = "P.png";
+                       break;
+                   case 'q':
+                   case 'Q':
+                       brailleimages01.Source = "Q.png";
+                       break;
+                   case 'r':
+                   case 'R':
+                       brailleimages01.Source = "R.png";
+                       break;
+                   case 's':
+                   case 'S':
+                       brailleimages01.Source = "S.png";
+                       break;
+                   case 't':
+                   case 'T':
+                       brailleimages01.Source = "T.png";
+                       break;
+                   case 'u':
+                   case 'U':
+                       brailleimages01.Source = "U.png";
+                       break;
+                   case 'v':
+                   case 'V':
+                       brailleimages01.Source = "V.png";
+                       break;
+                   case 'w':
+                   case 'W':
+                       brailleimages01.Source = "W.png";
+                       break;
+                   case 'x':
+                   case 'X':
+                       brailleimages01.Source = "X.png";
+                       break;
+                   case 'y':
+                   case 'Y':
+                       brailleimages01.Source = "Y.png";
+                       break;
+                   case 'z':
+                   case 'Z':
+                       brailleimages01.Source = "Z.png";
+                       break;
+                   default:
+                       DisplayAlert("UYARI", " 1. HARFTE HATALI GİRİŞ " +
+                           "LÜTFEN BİR HARF GİRİNİZ!", "OK");
+                       break;
+               }*/
