@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MTejjEGVOwhP2O38f26YQFnCDo0LjO9gKagdSTH+Xotbiy8WIRY4mr0x66vWigySH1v+rV+Y6+VbDhWjnua1hg==",
+  "dgSpecHash": "wfHHOocFU+98WWTbumQ6EsHAo5Z8/4uqCkI0YhVTZGjk75FCj/JQK0MHukMdnAFaKYk78/MibZpV9urqFJRgTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmet\\source\\repos\\BrailleUygulamasi\\BrailleUygulamasi\\BrailleUygulamasi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\ahmet\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ahmet\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
   ],
   "logs": []
 }
