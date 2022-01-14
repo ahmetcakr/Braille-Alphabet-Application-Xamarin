@@ -30,7 +30,7 @@
 
             <Image Source="{x:Reference textalani}"
                    x:Name="brailleimages"
-                   HeightRequest="200"
+                   HeightRequest="300"
                    VerticalOptions="CenterAndExpand"/>
 
 
