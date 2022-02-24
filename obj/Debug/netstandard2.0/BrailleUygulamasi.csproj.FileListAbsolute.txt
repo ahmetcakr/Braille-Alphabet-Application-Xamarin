@@ -2,10 +2,13 @@ C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\bin\Debug\netsta
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\bin\Debug\netstandard2.0\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\bin\Debug\netstandard2.0\ref\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\bin\Debug\netstandard2.0\BrailleUygulamasi.pdb
-C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.csproj.AssemblyReference.cache
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage2.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage3.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage4.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MyTabbedPage1.xaml.g.cs
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.AssemblyInfoInputs.cache
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.AssemblyInfo.cs
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.csproj.CoreCompileInputs.cache
@@ -13,7 +16,4 @@ C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netsta
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\ref\BrailleUygulamasi.dll
 C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.pdb
-C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage2.xaml.g.cs
-C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage3.xaml.g.cs
-C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MyTabbedPage1.xaml.g.cs
-C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\MainPage4.xaml.g.cs
+C:\Users\ahmet\source\repos\BrailleUygulamasi\BrailleUygulamasi\obj\Debug\netstandard2.0\BrailleUygulamasi.csproj.AssemblyReference.cache
