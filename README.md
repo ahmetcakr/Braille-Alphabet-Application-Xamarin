@@ -1,9 +1,15 @@
-# BrailleAlphabetApplication
- Braille Alphabet Application for Android in Android Studio
- 
- https://play.google.com/store/apps/details?id=com.companyname.brailleuygulamasi
- 
- 
- Inapp photos;
- 
-![264ed228-54c1-45e4-a38f-0f6a7ddca886](https://user-images.githubusercontent.com/89451731/148676215-387985d9-a222-429f-9f78-c1d65dc4615a.jpg)
+
+
+
+# Braille Alfabe Uygulaması
+
+Braille alfabesi veya Körler alfabesi; 1821 yılında Louis Braille tarafından geliştirilmiş görme engelli insanların okuyup yazması için kullanılan bir alfabe yöntemidir. İki kolon taşıyan dikdörtgen düzen üzerine dizilmiş altı kabartılmış noktadan oluşur. Her iki kolonda üçer nokta bulunur
+
+
+
+[![Github Followers](https://img.shields.io/github/forks/ahmetcakr/Braille-Alphabet-Application?style=social)](https://github.com/ahmetcakr/Braille-Alphabet-Application)
+
+[![Github Followers](https://img.shields.io/github/stars/ahmetcakr/Braille-Alphabet-Application?style=social)](https://github.com/ahmetcakr/Braille-Alphabet-Application)
+
+[![Download](https://img.shields.io/badge/Download-15-green)](https://play.google.com/store/apps/details?id=com.companyname.brailleuygulamasi)
+
